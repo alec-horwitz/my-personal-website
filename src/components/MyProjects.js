@@ -86,47 +86,76 @@ class MyProjects extends Component {
 
             </Card>
             <Card>
-              <Card.Content>
-                <Card.Header>Project</Card.Header>
+              <Card.Content inverted>
+                <Card.Header inverted>Gift.Me Crowd Funding App</Card.Header>
               </Card.Content>
-              <Image
-              size='medium'
-              centered
-              src='https://1.bp.blogspot.com/-vRML1Dg9ECg/UWg6fAv0EcI/AAAAAAAAFFo/3WaNG6V8j9s/s1600/zodiac1+capricorn.jpg'
-              href='https://github.com/alec-horwitz'
-              target='_blank'
+              <Embed
+                autoplay={true}
+                color='black'
+                hd={false}
+                id='art1iCX_7tY'
+                iframe={{
+                  allowFullScreen: true,
+                }}
+                placeholder='./Gift.Me.Alec.png'
+                source='youtube'
               />
               <Card.Content inverted>
-                Something About The Project Backend
-                <Button circular size='massive' href='https://github.com/alec-horwitz' target='_blank' color='black' icon='github' />
-                <br/>
-                Something About The Project Frontend
-                <Button circular size='massive' href='https://github.com/alec-horwitz' target='_blank' color='black' icon='github' />
-                <br/>
-                Something About The Project Video
-                <Button circular size='massive' href='https://youtube.com' target='_blank' color='black' icon='youtube' />
+                <Button.Group>
+                  <Button size='massive' href='https://github.com/MenuDevelopment/giftmefrontend' target='_blank' color='black'>
+                    <Icon name='github' >
+                      Front-end
+                    </Icon>
+                  </ Button>
+                  <Button size='massive' href='https://github.com/MenuDevelopment/giftmebackend' target='_blank' color='black'>
+                    <Icon name='github' >
+                      Back-end
+                    </Icon>
+                  </ Button>
+                </Button.Group>
+              <Container inverted textAlign='left'>
+              <List bulleted>
+                  <List.Item>Implemented full authentication and handling of new user creation</List.Item>
+                  <List.Item>Implemented all styling using the React-Semantic-UI library</List.Item>
+              </List>
+              </Container>
               </Card.Content>
             </Card>
             <Card>
-              <Card.Content>
-                <Card.Header>Project</Card.Header>
+              <Card.Content inverted>
+                <Card.Header inverted>Astrology Brawl - Pokemon battle type game</Card.Header>
               </Card.Content>
-              <Image
-              size='medium'
-              centered
-              src='https://1.bp.blogspot.com/-vRML1Dg9ECg/UWg6fAv0EcI/AAAAAAAAFFo/3WaNG6V8j9s/s1600/zodiac1+capricorn.jpg'
-              href='https://github.com/alec-horwitz'
-              target='_blank'
+              <Embed
+                autoplay={true}
+                color='black'
+                hd={false}
+                id='d3BbPrx4TdA'
+                iframe={{
+                  allowFullScreen: true,
+                }}
+                placeholder='./AstrologyBrawl.png'
+                source='youtube'
               />
               <Card.Content inverted>
-                Something About The Project Backend
-                <Button circular size='massive' href='https://github.com/alec-horwitz' target='_blank' color='black' icon='github' />
-                <br/>
-                Something About The Project Frontend
-                <Button circular size='massive' href='https://github.com/alec-horwitz' target='_blank' color='black' icon='github' />
-                <br/>
-                Something About The Project Video
-                <Button circular size='massive' href='https://youtube.com' target='_blank' color='black' icon='youtube' />
+                <Button.Group>
+                  <Button size='massive' href='https://github.com/alec-horwitz/AstrologyBrawl-Front' target='_blank' color='black'>
+                    <Icon name='github' >
+                      Front-end
+                    </Icon>
+                  </ Button>
+                  <Button size='massive' href='https://github.com/alec-horwitz/AstrologyBrawl-Back' target='_blank' color='black'>
+                    <Icon name='github' >
+                      Back-end
+                    </Icon>
+                  </ Button>
+                </Button.Group>
+              <Container inverted textAlign='left'>
+              <List bulleted>
+                  <List.Item>Built a Ruby on Rails based web API to serve our data over HTTP</List.Item>
+                  <List.Item>Using Javascript React with Redux, made a game with a login and a simple user interface</List.Item>
+                  <List.Item>Implemented all styling using the React-Semantic-UI library</List.Item>
+              </List>
+              </Container>
               </Card.Content>
             </Card>
           </Card.Group>
