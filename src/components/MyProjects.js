@@ -143,6 +143,8 @@ class MyProjects extends Component {
                       Live Site
                     </Icon>
                   </ Button>
+                </Button.Group>
+                <Button.Group>
                   <Button size='massive' href='https://github.com/alec-horwitz/AstrologyBrawl-Front' target='_blank' color='black'>
                     <Icon name='github' >
                       Front-end
