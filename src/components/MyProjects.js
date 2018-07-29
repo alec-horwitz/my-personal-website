@@ -140,17 +140,17 @@ class MyProjects extends Component {
                 <Button.Group>
                   <Button size='massive' href='https://astrology-brawl.herokuapp.com/' target='_blank' color='black'>
                     <Icon name='game' >
-                      Play
+                      Live Site
                     </Icon>
                   </ Button>
                   <Button size='massive' href='https://github.com/alec-horwitz/AstrologyBrawl-Front' target='_blank' color='black'>
                     <Icon name='github' >
-                      Front
+                      Front-end
                     </Icon>
                   </ Button>
                   <Button size='massive' href='https://github.com/alec-horwitz/AstrologyBrawl-Back' target='_blank' color='black'>
                     <Icon name='github' >
-                      Back
+                      Back-end
                     </Icon>
                   </ Button>
                 </Button.Group>
