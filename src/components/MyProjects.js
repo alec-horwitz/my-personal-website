@@ -138,6 +138,11 @@ class MyProjects extends Component {
               />
               <Card.Content inverted>
                 <Button.Group>
+                  <Button size='massive' href='https://astrology-brawl.herokuapp.com/' target='_blank' color='black'>
+                    <Icon name='game' >
+                      live site
+                    </Icon>
+                  </ Button>
                   <Button size='massive' href='https://github.com/alec-horwitz/AstrologyBrawl-Front' target='_blank' color='black'>
                     <Icon name='github' >
                       Front-end
