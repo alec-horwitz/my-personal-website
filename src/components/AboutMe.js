@@ -6,7 +6,7 @@ class AboutMe extends Component {
     return (
       <Container inverted attached='bottom' textAlign="center">
         <Divider hidden />
-        <Image src='./alecwordcloudinvisable1-1.png' size='large' rounded centered/>
+        <Image src='./AlecH.png' size='large' rounded centered/>
         <Divider hidden />
         <Header as='h1' inverted>
         Who Am I?
@@ -23,6 +23,8 @@ class AboutMe extends Component {
           <Divider hidden />
           I’ve been interested in Natural language processing (NLP) for a long time. My first encounter with NLP was when I was about 9yrs old. At the time, I was struggling to read and write due to my dyslexia. My school had me try Dragon Naturally Speaking (a well-regarded consumer grade NLP software at the time). It changed my life. I was suddenly able to read and write to my heart's content. I eventually learned to write on my own, but NLP has never stopped being a tremendously useful software to me. Like me, NLP has grown and evolved, and so has my use of it. To this day, I often use Siri to check spelling, look up definitions of words, set timers, and create calendar events. I feel this is just the beginning of its use in daily life. NLP is yet another technology helping us blur the lines between the real and the digital. By removing the need for motor skills and mechanical input it levels the playing field for people who are not  normally abled and brings us one step closer to making it possible for everyone to perform on the same level. It’s a beautiful technology.
         </Container>
+        <Divider hidden />
+        <Button circular size='massive' onClick={this.props.handleLearnMore}> Learn More </Button>
         <Divider hidden />
         <Button circular size='massive' href='https://github.com/alec-horwitz' target='_blank' color='black' icon='github' />
         <Button circular size='massive' href='https://www.linkedin.com/in/alec-horwitz/' target='_blank' color='black' icon='linkedin' />

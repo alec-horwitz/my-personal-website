@@ -6,7 +6,7 @@ class MyStory extends Component {
     return (
         <Container inverted attached='bottom'>
           <Divider hidden />
-          <Image src='./AlecH.png' size='large' rounded centered/>
+          <Image src='./alecwordcloudinvisable1-1.png' size='large' rounded centered/>
           <Divider hidden />
           <Header as='h1' inverted>
           This is my Story
