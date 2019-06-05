@@ -25,6 +25,42 @@ class MyProjects extends Component {
           <Card.Group centered>
             <Card>
               <Card.Content inverted>
+                <Card.Header inverted>Stock View - A stock visualizer tool</Card.Header>
+              </Card.Content>
+              <Embed
+                autoplay={true}
+                color='black'
+                hd={false}
+                id=''
+                iframe={{
+                  allowFullScreen: true,
+                }}
+                placeholder='./StockView.png'
+                source='youtube'
+              />
+              <Card.Content inverted>
+                <Button.Group>
+                  <Button size='massive' href='https://github.com/alec-horwitz/stock_view_frontend' target='_blank' color='black'>
+                    <Icon name='github' >
+                      Front-end
+                    </Icon>
+                  </ Button>
+                  <Button size='massive' href='https://github.com/alec-horwitz/stock_view_backend' target='_blank' color='black'>
+                    <Icon name='github' >
+                      Back-end
+                    </Icon>
+                  </ Button>
+                </Button.Group>
+                <Container inverted textAlign='left'>
+                  <List bulleted>
+                    <List.Item>Built a React Javascript based web interface to add D3.js graphs to</List.Item>
+                    <List.Item>Using Django Python and machine learning I will add an api to calculate what stocks to buy and sell</List.Item>
+                  </List>
+                </Container>
+              </Card.Content>
+            </Card>
+            <Card>
+              <Card.Content inverted>
                 <Card.Header inverted>Astrology Brawl - Pokemon battle type game</Card.Header>
               </Card.Content>
               <Embed
