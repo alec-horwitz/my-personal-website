@@ -40,6 +40,11 @@ class MyProjects extends Component {
               />
               <Card.Content inverted>
                 <Button.Group>
+                  <Button size='massive' color='black'>
+                      Live Site Coming Soon
+                  </ Button>
+                </Button.Group>
+                <Button.Group>
                   <Button size='massive' href='https://github.com/alec-horwitz/stock_view_frontend' target='_blank' color='black'>
                     <Icon name='github' >
                       Front-end
