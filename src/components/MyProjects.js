@@ -53,9 +53,9 @@ class MyProjects extends Component {
                 </Button.Group>
                 <Container inverted textAlign='left'>
                   <List bulleted>
-                    <List.Item>Built a React Javascript based web interface to add D3.js graphs to</List.Item>
-                    <List.Item>Created D3.js graphs visualize the data</List.Item>
-                    <List.Item>Using Django I will add a backend api</List.Item>
+                    <List.Item>Built a React Javascript based web interface for creating and editing graphs</List.Item>
+                    <List.Item>Created D3.js graphs to visualize stock data queried from the quandl api</List.Item>
+                    <List.Item>Using Django I will add a backend api for user authentiaction and handling quandl api requests</List.Item>
                     <List.Item>Using Python machine learning I will add a feature to the api to calculate what stocks to buy and sell</List.Item>
                   </List>
                 </Container>
