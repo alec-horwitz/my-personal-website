@@ -54,7 +54,9 @@ class MyProjects extends Component {
                 <Container inverted textAlign='left'>
                   <List bulleted>
                     <List.Item>Built a React Javascript based web interface to add D3.js graphs to</List.Item>
-                    <List.Item>Using Django Python and machine learning I will add an api to calculate what stocks to buy and sell</List.Item>
+                    <List.Item>Created D3.js graphs visualize the data</List.Item>
+                    <List.Item>Using Django I will add a backend api</List.Item>
+                    <List.Item>Using Python machine learning I will add a feature to the api to calculate what stocks to buy and sell</List.Item>
                   </List>
                 </Container>
               </Card.Content>
