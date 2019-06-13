@@ -40,8 +40,10 @@ class MyProjects extends Component {
               />
               <Card.Content inverted>
                 <Button.Group>
-                  <Button size='massive' color='black'>
+                  <Button size='medium' color='black'>
+                    <Icon name='game' >
                       Live Site Coming Soon
+                    </Icon>
                   </ Button>
                 </Button.Group>
                 <Button.Group>
