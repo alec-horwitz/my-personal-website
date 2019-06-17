@@ -11,7 +11,7 @@ class Contact extends Component {
           <Header as='h1' inverted>
           How to contact me:
           </Header>
-          contactme.alec@4witz.net
+          Connect with me on LinkedIn
           <Divider hidden />
           <Button circular size='massive' href='https://github.com/alec-horwitz' target='_blank' color='black' icon='github' />
           <Button circular size='massive' href='https://www.linkedin.com/in/alec-horwitz/' target='_blank' color='black' icon='linkedin' />
